@@ -1,0 +1,22 @@
+---
+title: Search
+---
+
+
+<!-- HTML elements for search -->
+<div id="search-demo-container">
+    <input type="text" id="search-input" placeholder="Search blog posts..">
+    <ul id="results-container"></ul>
+</div>
+
+<!-- script pointing to jekyll-search.js -->
+<script src="{{ site.baseurl  }}/node_modules/simple-jekyll-search/dest/simple-jekyll-search.min.js"></script>
+
+<script>
+var sjs = SimpleJekyllSearch({
+    searchInput: document.getElementById('search-input'),
+    resultsContainer: document.getElementById('results-container'),
+    json: '/search.json',
+    noResultsText: 'No Results Found'
+})
+</script>
