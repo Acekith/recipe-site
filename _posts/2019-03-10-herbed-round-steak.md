@@ -1,3 +1,4 @@
+---
 date: 2019-03-10
 title: Herbed Round Steak
 categories:
@@ -11,7 +12,7 @@ recipe:
   servings: 8-10 servings
   prep: 30 minutes
   cook: 10-12 hours
-  ingredients__markdown: |-
+  ingredients_markdown: |-
     * 3 pounds beef round steak. Cut 3/4 inch thick
     * 1 tablespoon cooking oil
     * 2 medium onions, sliced
